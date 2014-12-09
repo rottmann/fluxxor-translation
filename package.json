@@ -1,6 +1,6 @@
 {
   "name": "fluxxor-translation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gettext-style translation lib for fluxxor.",
   "main": "index.js",
   "author": "Peter Rottmann <rottmann@inveris.de>",
