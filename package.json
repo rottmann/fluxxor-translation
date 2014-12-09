@@ -1,0 +1,57 @@
+{
+  "name": "fluxxor-translation",
+  "version": "0.1.0",
+  "description": "Gettext-style translation lib for fluxxor.",
+  "main": "index.js",
+  "author": "Peter Rottmann <rottmann@inveris.de>",
+  "license": "MIT",
+  "homepage": "https://github.com/rottmann/fluxxor-translation",
+  "bugs": {
+    "url": "https://github.com/rottmann/fluxxor-translation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rottmann/fluxxor-translation.git"
+  },
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "jshint lib/",
+    "build-webpack": "./node_modules/webpack/bin/webpack.js --config script/webpack.config.js"
+  },
+  "keywords": [
+    "fluxxor",
+    "translation",
+    "mixin",
+    "i18n",
+    "translate",
+    "internationalization",
+    "gettext"
+  ],
+  "dependencies": {
+    "fluxxor": "^1.5.1",
+    "translation-dictionary": "^0.1.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.10",
+    "webpack": "^1.4.13"
+  },
+  "jshintConfig": {
+    "camelcase": true,
+    "curly": false,
+    "eqeqeq": true,
+    "forin": true,
+    "latedef": true,
+    "newcap": true,
+    "undef": true,
+    "unused": true,
+    "trailing": true,
+    "node": true,
+    "browser": true,
+    "predef": [
+      "it",
+      "describe",
+      "beforeEach",
+      "afterEach"
+    ]
+  }
+}
